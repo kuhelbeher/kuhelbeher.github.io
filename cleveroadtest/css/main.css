@@ -1,0 +1,71 @@
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	font-size: 1.6rem;
+	line-height: 1.7;
+	color: #333;
+	box-sizing: border-box;
+}
+
+.flex {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+}
+
+.col-25 {
+	width: 25%;
+	padding: 0 15px;
+}
+
+.col-75 {
+	width: 75%;
+	padding: 0 15px;
+}
+
+.wrapper {
+	padding: 10px 0;
+	width: 960px;
+	margin: 0 auto;
+}
+
+.top-line {
+	background-color: #00796B;
+	color: #fff;
+}
+
+.map {
+	height: 100%;
+}
+
+.crew {
+	border: 1px solid #00796B;
+}
+
+.crew-members {
+	list-style-type: none;
+	padding: 0 15px;
+}
+
+.crew-members .member {
+	padding: 10px 0;
+	border-bottom: 1px solid #4db6ac;
+}
+
+.crew-info {
+	margin: 15px;
+}
